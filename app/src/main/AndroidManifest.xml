@@ -38,6 +38,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.rk.myapps.myapplication.ImagesGridView" />
         </activity>
+        <activity
+            android:name=".ScrollActivity"
+            android:label="@string/title_activity_scroll"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rk.myapps.myapplication.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
