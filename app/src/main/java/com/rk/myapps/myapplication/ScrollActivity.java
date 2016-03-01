@@ -33,6 +33,8 @@ public class ScrollActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         ButterKnife.bind(this);
 
+        toolbar.setTitle("Tamasha");
+
         movie_image.setImageResource(R.drawable.tamasha);
         movie_name.setText("Tamasha");
         movie_release_date.setText("Release Date: 2016-May-01");

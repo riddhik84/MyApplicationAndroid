@@ -14,36 +14,43 @@
     <ImageView
         android:id="@+id/movie_image"
         android:layout_width="match_parent"
-        android:layout_height="300dp" />
+        android:layout_height="300dp"
+        android:layout_marginBottom="10dp"/>
 
     <TextView
         android:id="@+id/movie_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF"
+        android:textAllCaps="true"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp" />
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
 
         <TextView
             android:id="@+id/movie_rlease_date"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="left"
-            android:textColor="#FFFFFF"/>
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="5dp"/>
 
         <TextView
             android:id="@+id/movie_ratings"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="right"
             android:textColor="#FFFFFF"
-            android:drawableLeft="@drawable/rating_icon"/>
+            android:layout_marginRight="5dp"/>
+            <!-- android:drawableLeft="@drawable/rating_icon" -->
 
-        </LinearLayout>
+        </RelativeLayout>
 
         <ScrollView
             android:layout_width="match_parent"
@@ -53,7 +60,9 @@
                 android:id="@+id/movie_overview"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#FFFFFF"/>
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
 
         </ScrollView>
 </LinearLayout>
