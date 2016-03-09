@@ -1,24 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="fill_vertical"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
     <Button
-        android:id="@+id/showImages"
+        android:id="@+id/showImagesExample"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_click"
-        android:onClick="showImage"/>
+        android:text="@string/showImagesExample"
+        />
 
-    <ImageView
-        android:id="@+id/image_test1"
+    <Button
+        android:id="@+id/showImagesGridExample"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"/>
+        android:text="@string/showImagesGridExample"
+        />
 
-    <ImageView
-        android:id="@+id/image_test2"
+    <Button
+        android:id="@+id/showSQLiteDBExample"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="@string/showSQLiteDBExample"
+        />
 
-</LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+

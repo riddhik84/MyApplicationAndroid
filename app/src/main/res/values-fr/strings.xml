@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_click">Cliquez sur-moi !</string>
+    <string name="action_settings">paramètres</string>
+
+    <string name="app_name">Mon application</string>
+    <string name="title_activity_images_grid_view">Grid View</string>
+
+    <string name="title_activity_image_detail">Détail de l\'image</string>
+    <string name="title_activity_scroll">Scroll Activity</string>
+</resources>

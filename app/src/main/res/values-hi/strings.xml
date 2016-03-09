@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_click">क्लिक करें!</string>
+    <string name="action_settings">सेटिंग्स</string>
+
+    <string name="app_name">My Application</string>
+    <string name="title_activity_images_grid_view">Grid View</string>
+
+    <string name="title_activity_image_detail">Image detail</string>
+    <string name="title_activity_scroll">Scroll Activity</string>
+
+</resources>

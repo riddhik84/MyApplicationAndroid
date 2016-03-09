@@ -1,10 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_images_grid">ImagesGridActivity</string>
 
-    <string name="button_click" translatable="true">Click!</string>
-    <string name="title_activity_images_grid_view">Images Grid View</string>
-    <string name="title_activity_image_detail">ImageDetailActivity</string>
-    <string name="title_activity_scroll">ScrollActivity</string>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_images_grid_view">Grid View</string>
+
+    <string name="title_activity_image_detail">Image detail</string>
+    <string name="title_activity_scroll">Scroll Activity</string>
+
+    <!-- Button texts -->
+    <string name="showImagesExample">Picasso Images Example</string>
+    <string name="showImagesGridExample">Grid View Images Example</string>
+    <string name="showSQLiteDBExample">SQLite Example</string>
+    <string name="title_activity_picasso_image_view">PicassoImageView</string>
+
+    <!-- Menu Items -->
+    <string name="action_settings">settings</string>
+    <string name="action_share">share</string>
+
+
 </resources>
